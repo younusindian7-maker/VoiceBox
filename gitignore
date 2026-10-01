@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local data
+data/*
+!data/.gitkeep
+
+# Generated output
+output/*
+!output/.gitkeep
+
+# Model files
+models/*
+!models/.gitkeep
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
